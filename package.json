@@ -1,0 +1,27 @@
+{
+  "packageManager": "yarn@4.4.0",
+  "scripts": {
+    "codegen": "graphql-codegen --config ./graphql/headless/codegen.yml"
+  },
+  "dependencies": {
+    "@planetarium/account": "^5.2.1",
+    "@planetarium/account-aws-kms": "^5.2.1",
+    "@planetarium/bencodex": "^0.2.2",
+    "@planetarium/lib9c": "npm:@jsr/planetarium__lib9c@0.3.0-dev.202408060121400552+611d49dd5eaa1bee3427dc4964a36757eb4e001c",
+    "@planetarium/tx": "^5.2.1",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.0.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/typescript": "^4.0.0",
+    "@graphql-codegen/typescript-graphql-request": "^6.2.0",
+    "@graphql-codegen/typescript-operations": "^4.2.0",
+    "@types/node": "^22.1.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}
