@@ -89,6 +89,15 @@ If you want to make your own guild, you should use `make_guild` action. After se
 yarn tsx src/cli/make_guild.ts
 ```
 
+Action: call 'create_avatar'
+----------------------------
+
+If you want to make your new avatar, you should use `create_avatar` action. After setting environment variables, you can run:
+
+```sh
+yarn tsx src/cli/create_avatar.ts
+```
+
 
 Action: call 'migrate_pledge_to_guild'
 --------------------------------------
